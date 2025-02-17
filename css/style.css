@@ -1,0 +1,218 @@
+
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #752b1e; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    color: white;
+    background-color: #752b1e; 
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 05px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #bfc2aa;
+    font-size: 16px;
+}
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #672D1D;
+    
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.contact-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.contact-info {
+    width: 50%;
+    padding: 20px;
+}
+
+.contact-info h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+
+.subscribe-form {
+    
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.subscribe-form h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black; 
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.subscribe-form label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black; 
+}
+
+.subscribe-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.subscribe-form button {
+   
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.subscribe-form button:hover {
+    background: #ddd;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: wheat;
+    font-size: 100px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 60px;
+    }
+    .titulo, .titulo2 {
+        font-size: 2em;
+        text-align: center;
+    }
+    .video {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+    .contact-section {
+        text-align: center;
+    }
+}
+
+.titulito {
+
+    font-weight: bold;
+
+}
+
+.titulo {
+
+    font-weight: bold;
+    font-size: 4em;
+    
+
+    color: #c4a060;
+
+}
+
+
+.video {
+    height: 700px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+
+.img-custom {
+    width: 100%;  
+    max-width: 400px; 
+    display: block;
+    margin: auto; 
+}
+
+.titulo2 {
+
+    font-weight: bold;
+    font-size: 4em;
+    
+
+    color: #ffffff;
+
+}
+
+#restauraciones {
+    background-color: #c4a060 ;
+}
+
+.gallery-img {
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.titulotituloso{
+    text-align: right
+}
